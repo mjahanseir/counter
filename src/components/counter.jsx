@@ -6,7 +6,7 @@ class Counter extends Component {
   }
 
   handleInc = () => {
-    console.log("click", this);
+    this.setState({ count: this.state.count + 1 })
   }
 
   render() {
