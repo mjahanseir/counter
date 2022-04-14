@@ -4,8 +4,9 @@ class Counter extends Component {
   state = {
     count: 0,
   }
-  handleInc() {
-    console.log("click");
+
+  handleInc = () => {
+    console.log("click", this);
   }
 
   render() {
